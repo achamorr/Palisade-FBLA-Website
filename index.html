@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>Palisade FBLA Shop</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <img border="0" alt="Palisade HS FBLA" src="logo.png" width="120" height="80">
+                </a>
+                <!-- <a class="navbar-brand" href="index.html">Palisade HS FBLA</a> -->
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul style= "font-size: 20px;" class="nav navbar-nav"> 
+                <li>
+                        <a href="#top">Home</a>
+                    </li>
+                    <li>
+                        <a href="#members">Members</a                    </li>
+                    <li>
+                        <a href="#donate">Donate</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#info">Info</a>
+                    </li>
+                    <li>
+                        <a href="#contactform">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#findus">Find Us</a>
+                    </li>
+                    <li>
+                <div id= "paypal">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+        </div>
+        </li>
+        </ul>
+                    </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+  <!-- / Fixed Footer -->
+  <nav  style= " height: 80px;" class="navbar navbar-inverse navbar-fixed-bottom"  id= "foot" role="navigation">
+        <div class="container">
+        <div style= "text-align: center; font-weight: bold; font-size: 15px; padding-right: 300px; border-top: 10px; color:#337ab7" class ="nav navbar-fixed-bottom">
+            <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (602) 377-6997</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:palisadefbla@gmail.com">palisadefbla@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+        </div>
+
+         <div class="container">
+         <div style= "text-align: center; font-weight: bold; font-size: 20px;padding-left: 300px" class ="nav navbar-fixed-bottom">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/Palisade-High-School-FBLA-833800383399105/" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/fblaphs0178/?hl=en" target="_blank"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>  
+        </div>
+        </div>
+        </div>
+</nav>
+
+<!-- <nav  style= " height: 80px;" class="navbar navbar-inverse navbar-fixed-bottom"  id= "foot" role="navigation">
+        <div class="container">
+        <div style= "text-align: center; font-weight: bold; font-size: 20px;" class ="nav navbar-fixed-bottom">
+            <ul class="list-inline">
+                            <li style= "padding-right: 150px; color: #337ab7;"><i class="fa fa-phone fa-fw"></i> (602) 377-6997</li>
+                            <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:palisadefbla@gmail.com">palisadefbla@gmail.com</a>
+                            </li>
+                            <li style= "padding-left: 100px">
+                                <a href="https://www.facebook.com/Palisade-High-School-FBLA-833800383399105/" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            </li>
+                            <li style= "padding-left: 100px">
+                                <a href="https://www.instagram.com/fblaphs0178/?hl=en" target="_blank"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                            </li>
+                        </ul>      
+        </div>
+</nav>
+ -->
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1 style="text-shadow: 2px 2px white">Palisade High School FBLA</h1>
+            <h3 style= "text-shadow: 2px 2px black;font-size: 32px; color: white;">2018 Nationals Here We Come!</h3>
+            <br>
+            <a href = "#members" target="_blank" class="btn btn-dark btn-lg">Meet Our Members</a>
+        </div>
+    </header>
+
+<!-- Members -->
+<span>
+    <div id= "members" class="container">
+
+<!-- Space -->
+<div class="aligncenter" style="width:100%;height:0;border-top:50px solid white ;font-size:0;">-</div>   
+
+        <!-- Introduction Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">About Us
+                    <b style="color: #337ab7;font-size: 32px">Greetings! From Your 2016 FBLA Members</b>
+                </h1>
+                <h3 style= "line-height: 150%;" >Throughout the year, our members engage in community service, battle it out at dodgeball during monthly lock-ins, and develop different skills relating to business and entrepreneurship! They are ready to stand out in our business competitive events, first competing at Districts, and then at State. This year, many of these members take on the challenge to try to get to Nationals, and they need YOUR help to make that happen, for a small donation, you are helping them achieve, compete and learn at an invaluable business experience.</h3>
+                <h2 style= "font-weight: bold; text-align: center;"> Find out a little about who your donations are impacting! </h2>
+            </div>
+        </div>
+    </div>
+</span>
+        <!-- Team Members Row -->
+
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Our Team</h2>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/ana.jpg" alt="">
+                <h3>Ana Aguinada
+                    <small>President</small>
+                </h3>
+                <p>As a junior in high school this is my 3 rd year in FBLA. I enjoy FBLA because of the diversity it brings because it creates an avenue of different opportunities and friendships. In my free time I love to read, cook and travel to different places. I love candles and German shepherds. </p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/lili.png" alt="">
+                <h3>Lili Flannigan
+                    <small>VP of Public Relations/ Social Media</small>
+                </h3>
+                <p>I am in my sophomore year and this is my 2 nd year in FBLA. I love FBLA because of the
+bonds I have been able to make and the incredible experiences. I love to dance, hike and to be
+involved in politics.</p>
+
+            </div>
+            
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/savanna.jpg" alt="">
+                <h3>Savanna Pottorff
+                    <small>VP of Activities/Treasurer</small>
+                </h3>
+                <p>I am in the senior year and this is my 2 nd year in FBLA. I love FBLA because it has shaped
+me into a well-rounded person. In my free time, I love to read, hike, travel and eat!!</p>
+            </div>
+
+             <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/wright.jpg" alt="">
+                <h3>Melissa Wright
+                    <small>Advisor</small>
+                </h3>
+                <p>FBLA advisor for 9 years. I love being an advisor because I get to meet different student each year and they all have had
+different personalities. In my free time I like to hike.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/amyela.jpg" alt="">
+                <h3>Amyela Romisch
+                    <small>Parliamentarian</small>
+                </h3>
+                <p>I am in my junior year and I am in my 3 rd year of FBLA. FBLA has helped me become a more social person. I love to draw, listen to music. I love Korean
+culture too.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/avrey.jpg" alt="">
+                <h3>Avrey De Vaul
+                    <small>Member</small>
+                </h3>
+                <p>I am in my junior year and in my 3 rd year of FBLA. FBLA instills a sense of happiness when
+I work and accomplish tasks. I like to perform, sing, dance, be a part of popular acclaim, and
+to binge watch my favorite shows.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/iasis.jpg" alt="">
+                <h3>Iasis Keohuloa 
+                    <small>Member</small>
+                </h3>
+                <p>This is my second year! I'm a sophomore and officially a cat lady. I'm excited to compete at State this year!</p>
+            </div> 
+            <!--Add her back in next year-->
+            <!-- <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/starlyn.jpg" alt="">
+                <h3>Starlyn Conley
+                    <small>Member</small>
+                </h3>
+                <p>I am a junior and this is my third year in FBLA. Planning to become the next Kim K.</p>
+            </div> -->
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/katlyn.jpg" alt="">
+                <h3>Kaytln Erwin
+                    <small>Member</small>
+                </h3>
+                <p>I am in my freshman year and this is my 1 st year in FBLA. I love FBLA because I can learn
+how to connect, learn business skills and I am confident it will help me achieve more in life.
+I love to play soccer, hike and hangout with family and friends.</p>
+            </div>
+            
+            
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/lyleeone.jpg" alt="">
+                <h3>Lylleeone Donovan
+                    <small>Member</small>
+                </h3>
+                <p>I am my junior year and this my 1 st year in FBLA. I love FBLA because of the experience,
+the people it has introduced me to and overall has helped me progress as a person. I love to
+read, listen to music and talk long walks.</p>
+            </div>
+            
+            
+            <hr>  
+        </div>
+    </div>
+
+</span>       
+
+ <div class="row" id="donate">
+
+ <!-- Space -->
+<div class="aligncenter" style="width:100%;height:0;border-top:80px solid white ;font-size:0;">-</div>   
+
+            <div class="col-lg-12">
+                <div class="well text-center" style="width: 100%; background-color: #ffcc00">
+                    <h1>Donate</h1>
+                </div>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+    <!-- Thermometer -->
+
+    <div id=countdown-wrap>
+      <div id="goal">$10,000</div>
+      <div id="glass">
+        <div id="progress">
+        </div>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">16%</span>
+        <span class="goal-label">Funded</span>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">$1,640</span>
+        <span class="goal-label">Raised</span>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">38</span>
+        <span class="goal-label">Sponsors</span>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">41</span>
+        <span class="goal-label">Days to Go</span>
+      </div>
+    </div>
+</span>
+<!--http://stackoverflow.com/questions/9335140/how-to-countdown-to-a-date -->
+
+<!-- Space -->
+<div class="aligncenter" style="width:100%;height:0;border-top:50px solid white ;font-size:0;">-</div>   
+
+   <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Help Us Reach Our Goal!</h2>
+                    <div style = "display: inline-block; margin-right: 30px; vertical-align: top;">
+                    <a href="http://palisadefbla.com/nationals" target= "" class="btn btn-lg btn-dark">Learn More</a>
+                    <!-- <a href="http://palisadefbla.com/nationals" target= "_blank" class="btn btn-lg btn-dark">Learn More</a> -->
+                    <ul>
+                    </ul>
+                    </div>
+                    <div style = "display: inline-block; padding-bottom: 12px" >
+                    <form  action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="7TDNJCZEZBTNU">
+                    <input type="image" src="https://thumb.ibb.co/n5Kc85/button.gif" border="1" align= "top" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <!-- <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"> -->
+                    </form>
+                    </div>
+                </div>         
+            </div>
+        </div>
+    </div>
+    </aside>
+
+
+
+
+    <!-- Hours of Operation -->
+        <div class="row" id="info">
+
+            <!-- Space -->
+<div class="aligncenter" style="width:100%;height:0;border-top:70px solid white ;font-size:0;">-</div>   
+
+            <div class="col-lg-12">
+                <div class="well text-center" style="width: 100%; background-color: #ffcc00">
+                    <h1>More Info</h1>
+                </div>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+
+    <div class="container">
+        <!-- Content Row -->
+        <div class="row" style= "padding-bottom: 30px">
+            <div class="col-md-4">
+                <h2>Dear Reader</h2>
+                <h3>Thank you for your donation! By donating to your local Future Business Leaders of America Chapter at Palisade High School, you are helping to fund a club that is changing lives, and helping our students pursue a future in business and entrepreneurship. A sincere thank you from all the FBLA members. </h3>
+                <a class="btn btn-primary btn-lg" href="nationals.html" target="_blank">Learn More</a>
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <h2>Connect With Us</h2>
+                <h3>We meet weekly in Room 120D at Palisade High School, during lunch hours and after school. We hold lock-ins every once in a while afterschool until 10pm. Contact us to find out when these are. We welcome walk-ins!</h3>
+                <div >
+                    <h3 style= "font-weight: bold">Tuesday 3pm-6pm</h3>
+                    <h3 style="font-weight: bold"> Wednesday 11am-11:30am </h3>
+                </div>
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <h2> Our Mission</h2>
+                <h3> Our club has a mission to help improve it's members leadership skills, business knowledge, and also to improve their high school experiences by bringing them great opportunities to travel, connect, and express themselves through business.  </h3>
+                <a class="btn btn-primary btn-lg" href="#contactform">Contact</a>
+            </div>
+            <!-- /.col-md-4 -->
+        </div>
+        <!-- /.row -->
+    </div>
+
+
+
+    <!-- /.container -->
+<!-- <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+
+                </div>
+            </div>
+        </div>
+    </aside> -->
+
+    <!-- Contact Form-->
+    <div class= "row" id="contactform">
+
+    <!-- Space -->
+<div class="aligncenter" style="width:100%;height:0;border-top:70px solid white ;font-size:0;">-</div>   
+            <div class="col-lg-12">
+                <div class="well text-center" style="width: 100%; background-color: #337ab7; color: white">
+                    <h1>Contact Form</h1>
+                </div>
+            </div>
+            <!-- /.col-lg-12
+        </div> -->
+
+        
+        <!-- /.row -->
+        <div style= "align-content: center"; class= "container">
+        <div class="row" style= "padding-top: 20px;">
+            <div class="col-lg-12 text-center">
+                <h3 style= " line-height: 120%" class="list-unstyled">
+                    <li>Want to join, have a question, or have a comment about our items? </li>
+                    <li> Just send us an email, or give us a call at: </li>
+                </h3>
+                <b class="lead" style="font-weight: bold; font-size: 30px" >(970)549-0437</b>
+                <h4 style= " line-height: 160%" class="list-unstyled">
+                    <li> </li>
+                </h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+            <div class="box">
+                <!-- <div  style= " padding-bottom: 50px; width: 500px; " class="col-lg-12 text-center">
+                    
+                   <h3 style= " line-height: 150%; font-size: 30px" class="list-unstyled">
+                    <li>Want to join, have a question, or have a comment about our items? Just send us an email, or give us a call at: </li>
+                </h3>
+                <b class="lead" style="font-weight: bold; font-size: 30px;" >(602)377-6997</b>
+                </div> -->
+                </h4>
+                    <form role="form">
+                        <div class="row">
+                            <div class="form-group col-lg-4">
+                                <label>Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control">
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-lg-12">
+                                <label>Message</label>
+                                <textarea class="form-control" rows="6"></textarea>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <input type="hidden" name="save" value="contact">
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</div>
+</div>
+
+<!-- <div class="container" style="padding-bottom: 25px; display: ;">
+    <center>
+        <form name="htmlform" method="post" action="thanks.html" target="_blank">
+        <table width="450px">
+        </tr>
+        <tr>
+         <td valign="top">
+          <label for="first_name">First Name *</label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="first_name" maxlength="50" size="30">
+         </td>
+        </tr>
+         
+        <tr>
+         <td valign="top"">
+          <label for="last_name">Last Name *</label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="last_name" maxlength="50" size="30">
+         </td>
+        </tr>
+        <tr>
+         <td valign="top">
+          <label for="email">Email Address *</label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="email" maxlength="80" size="30">
+         </td>
+         
+        </tr>
+        <tr>
+         <td valign="top">
+          <label for="telephone">Telephone Number</label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="telephone" maxlength="30" size="30">
+         </td>
+        </tr>
+        <tr>
+         <td valign="top">
+          <label for="comments">Comments *</label>
+         </td>
+         <td valign="top">
+          <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+         </td>
+         
+        </tr>
+        <tr>
+         <td colspan="2" style="text-align:center">
+          <input type="submit" value="Submit">   ( <a href="http://www.freecontactform.com/html_form.php" target="_blank" >HTML Form</a> )
+         </td>
+        </tr>
+        </table>
+        </form>
+    </center>
+</div>  -->
+
+<!-- Space -->
+<div class="aligncenter" style="width:100%;height:0;border-top:90px solid #337ab7 ;font-size:0;">-</div>      
+        <!-- Footer -->
+<!-- <div class="container">
+
+        <hr>
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</div> -->
+    <!-- /.container -->
+
+     <!-- Map -->
+    <section id="findus" class="map">
+    <div class="aligncenter" style="width:100%;height:0;border-top:50px border-bottom:50px solid #ffcc00;font-size:0;">-</div>    
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12384.242411912444!2d-108.3700847!3d39.1050904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d1cd674030813c!2sPalisade+High+School!5e0!3m2!1sen!2sus!4v1485129506947"></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12384.242411912444!2d-108.3700847!3d39.1050904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d1cd674030813c!2sPalisade+High+School!5e0!3m2!1sen!2sus!4v1485129506947"></a>
+        </small>
+        
+    </section>
+
+<div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Room 120 D, Palisade High School</strong>
+                    </h4>
+                    <p>3679 G Rd
+                        <br>Palisade, CO 81526</p>
+            </div>
+    </div>
+</div>
+
+<!-- Space -->
+<div class="aligncenter" style="width:100%;height:0;border-top:50px solid #ffcc00;font-size:0;">-</div>  
+
+    <!-- Footer -->
+    
+        <div style="width: 100%; height: 300px; background-color: #202020; color: white" class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    
+                    <hr class="small">
+                    <p>Copyright &copy; Palisade FBLA 2016</p>
+                    <p>The MIT License (MIT)</p>
+                    <p>Copyright (c) 2013-2016 Blackrock Digital LLC.</p>
+                    <p>Templates: Stylish Portfolio; Shop Homepage</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: (target.offset().top) -50
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>
+
+
+</body>
+
+</html>

@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>Palisade FBLA Shop</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <img border="0" alt="Palisade HS FBLA" src="logo.png" width="120" height="80">
+                </a>
+                <!-- <a class="navbar-brand" href="index.html">Palisade HS FBLA</a> -->
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul style= "font-size: 20px;" class="nav navbar-nav"> 
+                <li>
+                        <a href="#top">Home</a>
+                    </li>
+                    <li>
+                        <a href="#members">Members</a                    </li>
+                    <li>
+                        <a href="#donate">Donate</a>
+                    </li>
+                    <li>
+                        <a href="#shop">Shop Now</a>
+                    </li>
+                    <li>
+                        <a href="#storepolicy">Store Policy</a>
+                    </li>
+                    <li>
+                        <a href="#contactform">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#findus">Find Us</a>
+                    </li>
+                    <li>
+                <div id= "paypal">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+        </div>
+        </li>
+        </ul>
+                    </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+  <!-- / Fixed Footer -->
+  <nav  style= " height: 80px;" class="navbar navbar-inverse navbar-fixed-bottom"  id= "foot" role="navigation">
+        <div class="container">
+        <div style= "text-align: center; font-weight: bold; font-size: 15px; padding-right: 300px; border-top: 10px; color:#337ab7" class ="nav navbar-fixed-bottom">
+            <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (602) 377-6997</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:palisadefbla@gmail.com">palisadefbla@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+        </div>
+
+         <div class="container">
+         <div style= "text-align: center; font-weight: bold; font-size: 20px;padding-left: 300px" class ="nav navbar-fixed-bottom">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/Palisade-High-School-FBLA-833800383399105/" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/fblaphs0178/?hl=en" target="_blank"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>  
+        </div>
+        </div>
+        </div>
+</nav>
+
+<!-- <nav  style= " height: 80px;" class="navbar navbar-inverse navbar-fixed-bottom"  id= "foot" role="navigation">
+        <div class="container">
+        <div style= "text-align: center; font-weight: bold; font-size: 20px;" class ="nav navbar-fixed-bottom">
+            <ul class="list-inline">
+                            <li style= "padding-right: 150px; color: #337ab7;"><i class="fa fa-phone fa-fw"></i> (602) 377-6997</li>
+                            <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:palisadefbla@gmail.com">palisadefbla@gmail.com</a>
+                            </li>
+                            <li style= "padding-left: 100px">
+                                <a href="https://www.facebook.com/Palisade-High-School-FBLA-833800383399105/" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            </li>
+                            <li style= "padding-left: 100px">
+                                <a href="https://www.instagram.com/fblaphs0178/?hl=en" target="_blank"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                            </li>
+                        </ul>      
+        </div>
+</nav>
+ -->
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1 style="text-shadow: 2px 2px white">Palisade High School FBLA</h1>
+            <h3 style= "text-shadow: 2px 2px black;font-size: 32px; color: white;">2017 Nationals Here We Come!</h3>
+            <br>
+            <a href = "#members" target="_blank" class="btn btn-dark btn-lg">Meet Our Members</a>
+        </div>
+    </header>
+
+<!-- Members -->
+<span>
+    <div id= "members" class="container">
+
+<!-- Space -->
+<div class="aligncenter" style="width:100%;height:0;border-top:50px solid white ;font-size:0;">-</div>   
+
+        <!-- Introduction Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">About Us
+                    <b style="color: #337ab7;font-size: 32px">Greetings! From Your 2016 FBLA Members</b>
+                </h1>
+                <h3 style= "line-height: 150%;" >Throughout the year, our members engage in community service, battle it out at dodgeball during monthly lock-ins, and develop different skills relating to business and entrepreneurship! They are ready to stand out in our business competitive events, first competing at Districts, and then at State. This year, many of these members take on the challenge to try to get to Nationals, and they need YOUR help to make that happen, for a small donation, you are helping them achieve, compete and learn at an invaluable business experience.</h3>
+                <h2 style= "font-weight: bold; text-align: center;"> Find out a little about who your donations are impacting! </h2>
+            </div>
+        </div>
+    </div>
+</span>
+        <!-- Team Members Row -->
+
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Our Team</h2>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/andrea.jpg" alt="">
+                <h3>Andrea Chamorro
+                    <small>President</small>
+                </h3>
+                <p>Been in FBLA since '13. In my free time, I'm learning programming to bring you sites like this! This year, I'm competing in E-Business, I'm ready to rock it! </p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/cheyenne.jpg" alt="">
+                <h3>Cheyenne Bigler
+                    <small>VP, Fundraising</small>
+                </h3>
+                <p>I'm the Vice President of our FBLA Chapter and I've been in FBLA for 2 years. This year I'm competing in Advertising and Business Ethics.</p>
+            </div>
+             <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/wright.jpg" alt="">
+                <h3>Melissa Wright
+                    <small>Advisor</small>
+                </h3>
+                <p>FBLA advisor for 9 years, loving every minute of it! Originally from Missouri, I spend my free time enjoying the fresh air of Colorado, hiking, biking, or skiing.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/starlyn.jpg" alt="">
+                <h3>Starlyn Conley
+                    <small>VP, Community Service</small>
+                </h3>
+                <p>Socially inept, Don’t really know what I’m doing with my life currently,like really stressed man. Planning to become the next Kim K.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/jesus.jpg" alt="">
+                <h3>Jesus Estrada
+                    <small>Vice President</small>
+                </h3>
+                <p>4 year member. I am glad to be part of an event I enjoyed this year for digital video production. I just want my senior year to be full of memories.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/avrey.jpg" alt="">
+                <h3>Avrey De Vaul
+                    <small>Social Media Rep</small>
+                </h3>
+                <p>This is my 2nd year in FBLA and I plan to stay. While I’m not at FBLA or at practice for some kind of musical or play I’m on my phone looking at memes or drawing.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/amyela.jpg" alt="">
+                <h3>Amyela Romisch
+                    <small>Secretary</small>
+                </h3>
+                <p>I am a socially awkward muffin covered with chocolate, who is obsessed with Korean bands and dramas. I have been a FBLA member for 2 years.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/diana.jpg" alt="">
+                <h3>Diana Luna
+                    <small>Member</small>
+                </h3>
+                <p>This is my first year with FBLA. In my free time I am learning the different aspects of marketing and competing in the Virtual Business Challenge!</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/lily.jpg" alt="">
+                <h3>Lily Flannigan
+                    <small>Member</small>
+                </h3>
+                <p>I started my own business three years ago, and now am competing in Business Plan. I'm in the International Baccalaureate Program.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/yessica.jpg" alt="">
+                <h3>Yessica Quijano
+                    <small>Member</small>
+                </h3>
+                <p>I have no friends. I’m the world’s biggest book worm. Currently reading a book for the fifth time. I am a Mexican girl.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/haylee.jpg" alt="">
+                <h3>Haylee Bibeau
+                    <small>Member</small>
+                </h3>
+                <p>I have dirty blonde hair, and always wear gray jackets. I’m obsessed with elephants. If I could I would get an elephant tattoo.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="members/iasis.jpg" alt="">
+                <h3>Iasis Keohuloa 
+                    <small>Member</small>
+                </h3>
+                <p>This is my first year! I'm a freshman and officially a cat lady. I'm excited to compete at State this year!</p>
+            </div> 
+            <hr>  
+        </div>
+    </div>
+
+</span>       
+
+ <div class="row" id="donate">
+
+ <!-- Space -->
+<div class="aligncenter" style="width:100%;height:0;border-top:80px solid white ;font-size:0;">-</div>   
+
+            <div class="col-lg-12">
+                <div class="well text-center" style="width: 100%; background-color: #ffcc00">
+                    <h1>Donate</h1>
+                </div>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+    <!-- Thermometer -->
+
+    <div id=countdown-wrap>
+      <div id="goal">$10,000</div>
+      <div id="glass">
+        <div id="progress">
+        </div>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">16%</span>
+        <span class="goal-label">Funded</span>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">$1,640</span>
+        <span class="goal-label">Raised</span>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">38</span>
+        <span class="goal-label">Sponsors</span>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">41</span>
+        <span class="goal-label">Days to Go</span>
+      </div>
+    </div>
+</span>
+<!--http://stackoverflow.com/questions/9335140/how-to-countdown-to-a-date -->
+
+<!-- Space -->
+<div class="aligncenter" style="width:100%;height:0;border-top:50px solid white ;font-size:0;">-</div>   
+
+   <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Help Us Reach Our Goal!</h2>
+                    <div style = "display: inline-block; margin-right: 30px; vertical-align: top;">
+                    <a href="http://palisadefbla.com/nationals" target= "" class="btn btn-lg btn-dark">Learn More</a>
+                    <!-- <a href="http://palisadefbla.com/nationals" target= "_blank" class="btn btn-lg btn-dark">Learn More</a> -->
+                    <ul>
+                    </ul>
+                    </div>
+                    <div style = "display: inline-block; padding-bottom: 12px" >
+                    <form  action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="7TDNJCZEZBTNU">
+                    <input type="image" src="https://thumb.ibb.co/n5Kc85/button.gif" border="1" align= "top" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <!-- <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"> -->
+                    </form>
+                    </div>
+                </div>         
+            </div>
+        </div>
+    </div>
+    </aside>
+
+
+    <!-- Shop -->
+
+    <div id= "shop" class="container" style= "padding-top: 50px">
+
+<!-- Space -->
+<div class="aligncenter" style="width:100%;height:0;border-top:70px solid white ;font-size:0;">-</div>   
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <h2 style= "font-weight: bold">Shop Now</h2>
+                <div class="list-group">
+                    <a href="electronics.html" class="list-group-item">Electronics</a>
+                    <a href="textbooks.html" class="list-group-item">Textbooks</a>
+                    <a href="bagsbackpacks.html" class="list-group-item">Bags/Backpacks</a>
+                    <a href="miscellaneous.html" class="list-group-item">Miscellaneous</a>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- CAROUSEl IMAGES: 1280 x 850 -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="slide-image" src="books.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="electronics.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="bags.jpg" alt="">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+              <!--   PRODUCT IMAGE: 320 X 150 -->
+                <div class="row">
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="ti-84.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$25</h4>
+                                <h4><a href="#">Gray TI-84</a>
+                                </h4>
+                                <p>A slightly used calculator, 2013, reset to factory settings</p>
+                            </div>
+                            <div class="ratings">
+                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="XCG4R8FXFEAU8">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="ipod1.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$25</h4>
+                                <h4><a href="#">Ipod Mini</a>
+                                </h4>
+                                <p>Used only a couple times, reset to factory setting, and with case included.</p>
+                            </div>
+                            <div class="ratings">
+                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="G4BYCM9MA8LRU">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="floralpack1.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$8</h4>
+                                <h4><a href="#">Floral Backpack</a>
+                                </h4>
+                                <p>Floral backpack from Aeropostal, Used 1 year, ample room, magnetic clasps of front pocket missing, gentle wear on bottom.</p>
+                            </div>
+                            <div class="ratings">
+                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="QTW9CKPFQ6RWE">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="curlingiron.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$8</h4>
+                                <h4><a href="#">Bubble Curling Wand</a>
+                                </h4>
+                                <p>2-In-1 Curling Wand by Bed Head. Used only once, comes with heat-protectant glove.</p>
+                            </div>
+                            <div class="ratings">
+                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="2RZ42FJR2Z2FQ">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="satsubject.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$7</h4>
+                                <h4><a href="#">SAT Subject TestBook</a>
+                                </h4>
+                                <p>Includes study material for all 20 tests and 2 unopened DVDS for listening tests. Math Section heavily marked, all other tests untouched. </p>
+                            </div>
+                            <div class="ratings">
+                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="5PEJ285Y8W87E">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+                            </div>
+                        </div>
+                    </div>
+                 
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="vest.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$6</h4>
+                                <h4><a href="#">Pocketed Vest</a>
+                                </h4>
+                                <p>Medium, faux wool inner-lining, sleeveless khaki vest.</p>
+                            </div>
+                            <div class="ratings">
+                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="L4DFA4A469AZY">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="sat1.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$7</h4>
+                                <h4><a href="#">SAT Study Book</a>
+                                </h4>
+                                <p>Includes 8 full Practice Tests and study material. Minimal markings. In excellent condition.</p>
+                            </div>
+                            <div class="ratings">
+                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="9CLVPVKRWTFPY">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Hours of Operation -->
+        <div class="row" id="storepolicy">
+
+            <!-- Space -->
+<div class="aligncenter" style="width:100%;height:0;border-top:70px solid white ;font-size:0;">-</div>   
+
+            <div class="col-lg-12">
+                <div class="well text-center" style="width: 100%; background-color: #ffcc00">
+                    <h1>Store Policy</h1>
+                </div>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+
+    <div class="container">
+        <!-- Content Row -->
+        <div class="row" style= "padding-bottom: 30px">
+            <div class="col-md-4">
+                <h2>Dear Customer</h2>
+                <p>Thank you for your purchase! By buying from your local Future Business Leaders of America Chapter at Palisade High School, you are helping to fund a club that is changing lives, and helping our students pursue a future in business and entrepreneurship. A sincere thank you from all the FBLA members. We look forward to meeting all your school supplies needs again!</p>
+                <a class="btn btn-primary btn-lg" href="nationals.html" target="_blank">Learn More</a>
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <h2>Connect With Us</h2>
+                <p>We operate through our in-school shop. Your orders will show up in our system after purchase. You can simply come pick up your purchase in Room 120D at Palisade High School, during business hours. These are during lunch and during club hour times. All hours of operation apply on school days, see contact page for address:</p>
+                <div >
+                    <h4 style= "font-weight: bold">Monday-Friday 10:40pm- 11:40pm</h4>
+                    <h4 style="font-weight: bold"> Wednesday- 2:15 pm -2:45 pm</h4>
+                </div>
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <h2> Return Policy</h2>
+                <p> As an online yard-sale, we sell all our items "as is." We are not able to accept returns at this time, and once a purchase has been made, the sale is final. We welcome any questions regarding our policy through the Contact Us Form at the bottom of our page.</p>
+                <a class="btn btn-primary btn-lg" href="#contactform">Contact</a>
+            </div>
+            <!-- /.col-md-4 -->
+        </div>
+        <!-- /.row -->
+    </div>
+
+
+
+    <!-- /.container -->
+<!-- <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+
+                </div>
+            </div>
+        </div>
+    </aside> -->
+
+    <!-- Contact Form-->
+    <div class= "row" id="contactform">
+
+    <!-- Space -->
+<div class="aligncenter" style="width:100%;height:0;border-top:70px solid white ;font-size:0;">-</div>   
+            <div class="col-lg-12">
+                <div class="well text-center" style="width: 100%; background-color: #337ab7; color: white">
+                    <h1>Contact Form</h1>
+                </div>
+            </div>
+            <!-- /.col-lg-12
+        </div> -->
+
+        
+        <!-- /.row -->
+        <div style= "align-content: center"; class= "container">
+        <div class="row" style= "padding-top: 20px;">
+            <div class="col-lg-12 text-center">
+                <h3 style= " line-height: 120%" class="list-unstyled">
+                    <li>Want to join, have a question, or have a comment about our items? </li>
+                    <li> Just send us an email, or give us a call at: </li>
+                </h3>
+                <b class="lead" style="font-weight: bold; font-size: 30px" >(970)549-0437</b>
+                <h4 style= " line-height: 160%" class="list-unstyled">
+                    <li> Club Meetings are on Wednesdays from 10:45 to 11:15 or Wednesdays from 2:15 to 2:50pm. </li>
+                </h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+            <div class="box">
+                <!-- <div  style= " padding-bottom: 50px; width: 500px; " class="col-lg-12 text-center">
+                    
+                   <h3 style= " line-height: 150%; font-size: 30px" class="list-unstyled">
+                    <li>Want to join, have a question, or have a comment about our items? Just send us an email, or give us a call at: </li>
+                </h3>
+                <b class="lead" style="font-weight: bold; font-size: 30px;" >(602)377-6997</b>
+                </div> -->
+                </h4>
+                    <form role="form">
+                        <div class="row">
+                            <div class="form-group col-lg-4">
+                                <label>Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control">
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-lg-12">
+                                <label>Message</label>
+                                <textarea class="form-control" rows="6"></textarea>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <input type="hidden" name="save" value="contact">
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</div>
+</div>
+
+<!-- <div class="container" style="padding-bottom: 25px; display: ;">
+    <center>
+        <form name="htmlform" method="post" action="thanks.html" target="_blank">
+        <table width="450px">
+        </tr>
+        <tr>
+         <td valign="top">
+          <label for="first_name">First Name *</label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="first_name" maxlength="50" size="30">
+         </td>
+        </tr>
+         
+        <tr>
+         <td valign="top"">
+          <label for="last_name">Last Name *</label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="last_name" maxlength="50" size="30">
+         </td>
+        </tr>
+        <tr>
+         <td valign="top">
+          <label for="email">Email Address *</label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="email" maxlength="80" size="30">
+         </td>
+         
+        </tr>
+        <tr>
+         <td valign="top">
+          <label for="telephone">Telephone Number</label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="telephone" maxlength="30" size="30">
+         </td>
+        </tr>
+        <tr>
+         <td valign="top">
+          <label for="comments">Comments *</label>
+         </td>
+         <td valign="top">
+          <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+         </td>
+         
+        </tr>
+        <tr>
+         <td colspan="2" style="text-align:center">
+          <input type="submit" value="Submit">   ( <a href="http://www.freecontactform.com/html_form.php" target="_blank" >HTML Form</a> )
+         </td>
+        </tr>
+        </table>
+        </form>
+    </center>
+</div>  -->
+
+<!-- Space -->
+<div class="aligncenter" style="width:100%;height:0;border-top:90px solid #337ab7 ;font-size:0;">-</div>      
+        <!-- Footer -->
+<!-- <div class="container">
+
+        <hr>
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</div> -->
+    <!-- /.container -->
+
+     <!-- Map -->
+    <section id="findus" class="map">
+    <div class="aligncenter" style="width:100%;height:0;border-top:50px border-bottom:50px solid #ffcc00;font-size:0;">-</div>    
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12384.242411912444!2d-108.3700847!3d39.1050904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d1cd674030813c!2sPalisade+High+School!5e0!3m2!1sen!2sus!4v1485129506947"></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12384.242411912444!2d-108.3700847!3d39.1050904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d1cd674030813c!2sPalisade+High+School!5e0!3m2!1sen!2sus!4v1485129506947"></a>
+        </small>
+        
+    </section>
+
+<div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Room 120 D, Palisade High School</strong>
+                    </h4>
+                    <p>3679 G Rd
+                        <br>Palisade, CO 81526</p>
+            </div>
+    </div>
+</div>
+
+<!-- Space -->
+<div class="aligncenter" style="width:100%;height:0;border-top:50px solid #ffcc00;font-size:0;">-</div>  
+
+    <!-- Footer -->
+    
+        <div style="width: 100%; height: 300px; background-color: #202020; color: white" class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    
+                    <hr class="small">
+                    <p>Copyright &copy; Palisade FBLA 2016</p>
+                    <p>The MIT License (MIT)</p>
+                    <p>Copyright (c) 2013-2016 Blackrock Digital LLC.</p>
+                    <p>Templates: Stylish Portfolio; Shop Homepage</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: (target.offset().top) -50
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>
+
+
+</body>
+
+</html>
